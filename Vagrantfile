@@ -48,9 +48,9 @@ Vagrant.configure("2") do |config|
     # define ansible provisioning only on last machine
     # in order to deal with https://github.com/mitchellh/vagrant/issues/1784
     node.vm.provision :ansible do |ansible|
-      ansible.playbook = File.expand_path("~/Dev/ansible/playbook/site.yml")
+      ansible.playbook = "playbook/site.yml"
       ansible.sudo = true
-      ansible.inventory_path = "./inventory/vagrant"
+      ansible.inventory_path = "inventory/vagrant"
       ansible.extra_vars = { inventory_files: inventory_files }
     end
   end
