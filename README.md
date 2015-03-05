@@ -1,6 +1,6 @@
 # Ansible Django Deployment playbook.
 
-Please not that the MIT License is in effect only if the [license pull request](https://github.com/airtonix/ansible-django/pull/3) is accepted. 
+MIT Licensed.
 
 This playbook works with (or will aim to work with) the following technologies:
 
@@ -13,7 +13,9 @@ This playbook works with (or will aim to work with) the following technologies:
 * Haystack
 * Elastic Search
 * Redis
+* 
 
+**I encourage pull requests towards this regard**
 
 ## Todo
 
