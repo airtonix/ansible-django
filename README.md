@@ -39,7 +39,7 @@ This playbook works with (or will aim to work with) the following technologies:
 ## Installation
 
 * git clone this repo to a sensible location
-* edit ~/.bash_rc (or other such file) to include an alias to the `play` script.
+* edit `~/.bash_rc` (or other such file) to include an alias to the `play` script.
     `alias playbook='~/Dev/ansible/play'`
 * copy the `inventory` directory to your django project source tree (see below) and put all sensitive information in this folder (assuming your project is private).
 * copy the Vagrantfile to the same location.
