@@ -1,7 +1,7 @@
 ---
 - name: Install Packages
   apt: >
-    pkg=${item}
+    pkg={{item}}
     state=installed
     update-cache=yes
   with_items:
